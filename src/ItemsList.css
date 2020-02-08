@@ -1,0 +1,32 @@
+.list{
+    color: #fff;
+    width: 300px;
+    background-color: #bf07ac;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.list p{
+    padding: 10px;
+    position: relative;
+}
+.list p img{
+    width: 30px;
+    position: absolute;
+    right:10px;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+.list p img:hover{
+    width: 35px;
+}
+
+.list p input {
+    background: transparent;
+    color: white;
+    border:0;
+    font-size: 18px;
+}
+.list p input:focus{
+    outline: none;
+}
